@@ -3,7 +3,7 @@ import { navigate } from 'gatsby';
 
 export default function Index() {
   useEffect(() => {
-    navigate('/extra-components/accordion');
+    navigate('/auth/login');
   }),
     [];
   return <div />;
